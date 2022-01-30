@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "new_package"
+version = "0.1.0"
+description = ""
+authors = ["Fred Drake <fred.drake@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+loguru = "^0.6.0"
+snooty-lextudio = "^1.11.6"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+rope = "^0.22.0"
+flake8 = "^4.0.1"
+wemake-python-styleguide = "^0.16.0"
+cohesion = "^1.0.0"
+dlint = "^0.12.0"
+autopep8 = "^1.6.0"
+mypy = "^0.931"
+pytest-cov = "^3.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
